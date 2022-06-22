@@ -101,4 +101,4 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2022 [Peter Keck](https://github.com/pyrrolizin).<br />
-This project is [LICENSE](LICENSE-URL) licensed.
+This project is [MIT](https://github.com/pyrrolizin/flask-api-request/blob/master/LICENSE) licensed.
