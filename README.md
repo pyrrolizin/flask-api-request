@@ -1,11 +1,8 @@
 <h1 align="center">Welcome to flask-api-request 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
-  <a href="http://docu-blabla" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="LICENSE-URL" target="_blank">
-    <img alt="License: LICENSE" src="https://img.shields.io/badge/License-LICENSE-yellow.svg" />
+  <a href="https://github.com/pyrrolizin/flask-api-request/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg" />
   </a>
   <a href="https://twitter.com/kekz" target="_blank">
     <!--img alt="Twitter: kekz" src="https://img.shields.io/twitter/follow/kekz.svg?style=social" / -->
@@ -16,9 +13,9 @@
 >This project is a starting platform for a SSR (Server Side Rendered) Flask project that pulls data from an external API and caches the result. 
 >The project includes a responsive Jinia2 template with Bootstrap.
 
-### 🏠 [Homepage](http://github.com/blabla)
+### 🏠 [Homepage](https://github.com/pyrrolizin/flask-api-request)
 
-### ✨ Demo (OpenWeatherMap-Api - Current weather in Stuttgart, Germany
+### ✨ Demo (OpenWeatherMap-Api - Current weather in Stuttgart, Germany)
 
 tbd
 
