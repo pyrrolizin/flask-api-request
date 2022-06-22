@@ -1,0 +1,13 @@
+# cache
+__pycache__/
+*.pyc
+.pytest_cache
+
+# virtual environment
+venv
+
+# danger!
+.env
+
+# MacOS
+.DS_Store

@@ -1,0 +1,12 @@
+{% extends "layout.j2" %}
+{% block content %}
+    <h1>Flask API Request Demo</h1>
+    <p>This page is a demo project and template for a development of a Server Side Renderer (SSR) project using Flask, 
+       which accesses an external API and caches the result in a cache.</p>
+       <p>This comes with a responsive template using Bootstrap.</p>
+    <h2 class="pt-3">Weather in Stuttgart</h2>
+    <div class="weather_info text-center h2">{{ current_weather }}</div>
+{% endblock content %}
+{% block footer %}
+    <p>Source: <a href="https://openweathermap.org/api">OpenWeatherMap API</a></p>
+{% endblock footer %}
