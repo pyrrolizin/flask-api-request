@@ -18,7 +18,10 @@
 
 ### 🏠 [Homepage](http://github.com/blabla)
 
-### ✨ [Demo (OpenWeatherMap-Api - Current weather in Stuttgart, Germany)](http://netlify-demo/...)
+### ✨ Demo (OpenWeatherMap-Api - Current weather in Stuttgart, Germany
+
+tbd
+
 ![screenshot of the demo application](screenshot.png)
 
 ## Install
@@ -91,7 +94,7 @@ make doc
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](ISSUE-URL). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/pyrrolizin/flask-api-request/issues). 
 Please use [Black](https://black.readthedocs.io/) as code formatter.
 
 ## Show your support
