@@ -1,10 +1,23 @@
-import urllib.request, json
+"""API caller helper module"""
 
+import urllib.request
+import json
 from flask import current_app
 
 
 def getWeather(app):
-    app.logger.warning("API CAll")
+    """Example API caller.
+    request the current weather from Openweathermap
+
+    To mock the API set API_URL to "MOCK". returns str: "sunny - 23 °C"
+
+    Args:
+        app (Flask): current flask app
+
+    Returns:
+        str: current weather description - temperature °C
+    """
+    app.logger.info("API Call")
     API_KEY = app.config["API_KEY"]
     API_URL = app.config["API_URL"]
     if API_URL == "MOCK":

@@ -13,7 +13,7 @@ setup:
 
 
 doc:
-	@( . ./venv/bin/activate; cd src; pdoc --html -c show_source_code=False webapp -o ../doc )
+	@( . ./venv/bin/activate; cd src; pdoc --html --force -c show_source_code=False webapp -o ../doc )
 
 test:
 	@( . ./venv/bin/activate; cd src; python -m pytest tests -v )

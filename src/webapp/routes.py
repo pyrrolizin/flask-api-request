@@ -1,3 +1,5 @@
+"""Main blueprint for routing"""
+
 from flask import (
     Blueprint,
     render_template,
@@ -20,7 +22,9 @@ bp = Blueprint("bp", __name__)
 @bp.route("/")
 @cache.cached()
 def home():
-    """Startseite ("/")
+    """Homepage ("/")
+
+    Renders the template home.j2 and adds the output from the api helper function.
 
     Returns:
         home.j2
