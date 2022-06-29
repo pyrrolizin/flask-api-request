@@ -2,7 +2,6 @@
 
 import urllib.request
 import json
-from flask import current_app
 
 
 def getWeather(app):

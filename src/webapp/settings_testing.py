@@ -1,5 +1,4 @@
 """Settings file for pytest"""
-from os import environ
 import secrets
 
 #: Random flask secret key
