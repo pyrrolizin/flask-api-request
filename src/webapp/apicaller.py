@@ -27,7 +27,7 @@ def getWeather(app):
 
     jsonObj = json.loads(data)
 
-    current_weather = "{condition} - {temp:.1f} °C".format(
+    current_weather = "{condition} &hellip; {temp:.1f} °C".format(
         condition=jsonObj["weather"][0]["description"], temp=jsonObj["main"]["temp"]
     )
     return current_weather
