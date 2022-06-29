@@ -1,4 +1,5 @@
-"""This project is a starting platform for a SSR (Server Side Rendered) Flask project that pulls data from an external API and caches the result. 
+"""This project is a starting platform for a SSR (Server Side Rendered) Flask
+project that pulls data from an external API and caches the result.
 The project includes a responsive Jinia2 template with Bootstrap.
 
 main flask application"""
@@ -10,13 +11,15 @@ from .cache import cache
 
 
 def init_app(config):
-    """Generates a new aaplication instatance and loads the corresponding settings file
+    """Generates a new aaplication instatance and loads the corresponding
+    settings file.
 
     Args:
         config (string): filename. `settings.py` or `settings_testing.py`
 
     Raises:
-        Exception: missing API_KEY. Please provice API_KEy with environment vaiable or .env
+        Exception: missing API_KEY. Please provice API_KEy with environment
+                   variable or .env
 
     Returns:
         Flask: Flask application
