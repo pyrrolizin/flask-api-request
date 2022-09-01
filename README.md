@@ -4,9 +4,6 @@
   <a href="https://github.com/pyrrolizin/flask-api-request/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg" />
   </a>
-  <a href="https://twitter.com/kekz" target="_blank">
-    <!--img alt="Twitter: kekz" src="https://img.shields.io/twitter/follow/kekz.svg?style=social" / -->
-  </a>
 </p>
 
 
